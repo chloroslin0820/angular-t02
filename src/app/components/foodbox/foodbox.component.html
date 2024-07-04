@@ -1,0 +1,5 @@
+<div *ngIf="displayCondition" class="foodbox">
+  <img [src]="foodData.foodImg" alt="{{ foodData.foodName }}" />
+  <h1>{{ foodData.foodName }}</h1>
+  <p>{{ foodData.foodPrice | currency : "INR" }}</p>
+</div>

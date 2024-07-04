@@ -1,0 +1,12 @@
+.foodbox {
+    padding: 10px 5px;
+}
+.foodbox img {
+    width: 100%;
+    object-fit: cover;
+}
+.foodbox h1 {
+    font-size: 18px;
+    margin-top: 20px;
+    font-weight: bold;
+}

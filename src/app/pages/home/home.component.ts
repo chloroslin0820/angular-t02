@@ -10,7 +10,7 @@ export class HomeComponent {
 
   constructor(private service: OrderDetailsService) { }
   foodData: any;
-  ngOnInit() {
+  ngOnInit(): void{
     this.foodData = this.service.foodDetails;
   }
 }

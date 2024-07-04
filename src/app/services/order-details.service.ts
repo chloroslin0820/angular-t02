@@ -49,7 +49,49 @@ export class OrderDetailsService {
       foodDetails:"Oreo ice cream",
       foodPrice:219,
       foodImg:"https://i2.wp.com/pbfingers.com/wp-content/uploads/2022/06/oreo-cheesecake-ice-cream-9.jpg"
-    }
+    },
+    {
+      id:7,
+      foodName:"Chicken Biryani",
+      foodDetails:"Aromatic basmati rice cooked with marinated chicken, saffron, and traditional Indian spices.",
+      foodPrice:250,
+      foodImg:"https://www.foodfashionparty.com/wp-content/uploads/2020/10/biryani-1-scaled.jpg"
+    },
+    {
+      id:8,
+      foodName:"Masala Dosa",
+      foodDetails:"Crispy rice and lentil crepe filled with spiced potato filling, served with chutney and sambar.",
+      foodPrice:180,
+      foodImg:"https://i0.wp.com/binjalsvegkitchen.com/wp-content/uploads/2015/12/Masala-Dosa-H2.jpg?w=600&ssl=1"
+    },
+    {
+      id:9,
+      foodName:"Butter Chicken",
+      foodDetails:"Tender chicken pieces cooked in a rich tomato-based gravy with cream and butter.",
+      foodPrice:300,
+      foodImg:"https://littlespicejar.com/wp-content/uploads/2013/12/Finger-Lickin-Butter-Chicken-3.jpg"
+    },
+    {
+      id:10,
+      foodName:"Palak Paneer",
+      foodDetails:"Fresh paneer cubes cooked in a creamy spinach gravy with traditional Indian spices.",
+      foodPrice:220,
+      foodImg:"https://healthynibblesandbits.com/wp-content/uploads/2020/01/Saag-Paneer-1.jpg"
+    },
+    {
+      id:11,
+      foodName:"Lamb Rogan Josh",
+      foodDetails:"A flavorful Kashmiri dish made with tender lamb cooked in a rich and aromatic gravy.",
+      foodPrice:350,
+      foodImg:"https://beesbites.com.au/wp-content/uploads/2021/01/Lamb-Rogan-Josh-blog-1170x1755.jpg"
+    },
+    {
+      id:12,
+      foodName:"Gulab Jamun",
+      foodDetails:"Deep-fried milk-based dumplings soaked in a sweet sugar syrup flavored with cardamom and rose water.",
+      foodPrice:120,
+      foodImg:"https://i0.wp.com/www.blissofcooking.com/wp-content/uploads/2023/11/Gulab-Jamun-Feature.jpg?w=800&ssl=1"
+    },
   ];
 
 }
