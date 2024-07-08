@@ -2,7 +2,7 @@
     <div class="row">
         <div class="col-lg-4 mb-5" *ngFor="let fd of foodData">
             <app-foodbox [foodData]="fd"></app-foodbox>
-            <a class="buy-btn">Buy Now &nbsp;<i class="bi bi-bag"></i></a>
+            <a class="buy-btn" [routerLink]="['/menu', fd.id]">Buy Now &nbsp;<i class="bi bi-bag"></i></a>
         </div>
     </div>
 </div>

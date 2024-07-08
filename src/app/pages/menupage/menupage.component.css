@@ -1,0 +1,13 @@
+:host ::ng-deep .foodbox h1, :host ::ng-deep .foodbox p {
+    font-size: 2.4rem !important;
+}
+
+form {
+    margin-top: 5%;
+    width: 60%;
+}
+
+.no-resize {
+    resize: none;
+    height: 120px;
+}
