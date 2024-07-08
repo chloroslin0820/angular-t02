@@ -11,6 +11,7 @@ import { MenuComponent } from './pages/menu/menu.component';
 import { AboutComponent } from './pages/about/about.component';
 import { FoodboxComponent } from './components/foodbox/foodbox.component';
 import { MenupageComponent } from './pages/menupage/menupage.component';
+import { ReactiveFormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -26,7 +27,8 @@ import { MenupageComponent } from './pages/menupage/menupage.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    ReactiveFormsModule
   ],
   providers: [
     provideClientHydration()
